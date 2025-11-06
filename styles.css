@@ -1,0 +1,203 @@
+
+body {
+    /* 16:9 ratio */
+    height: 178px;
+    width: 100px;
+  
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5em;
+
+    background-color: #f9fafb;
+    color: #374151;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #1E3A8A;
+    color: white;
+    padding: 1em;
+  }
+  
+  header a {
+    font: 16px arial, sans-serif;
+    text-decoration: none;
+    margin-right: 1em;
+    cursor: pointer;
+    color: white;
+  }
+
+  header a:hover {
+      color: #facc15;
+  }
+
+  
+
+  header a:active {
+    color: blue;
+  }
+
+  #imageSection {
+    background-color: #111;
+    color: white;
+  }
+
+  #boxingRecords {
+    background-color: #111;
+    color: white;
+  }
+
+  button {
+    background-color: #C41E3A;
+    color: white;
+  }
+
+  button:hover {
+    background-color: #E03E52;
+  }
+
+  #careerSection, #firstCareer, #secondCareer, #thirdCareer, #fourthCareer {
+    background-color: #f9f9f9;
+    color: #222;
+  }
+
+  #videoSection {
+    background-color: #202020;
+    color: #ddd;
+  }
+
+  #img {
+    height: 200px;
+    width: 200px;
+  }
+
+  video {
+    height: 300px;
+    width: 300px;
+  }
+
+  #winInput, #lossInput, #drawInput {
+    display: inline-block;
+    width: auto;    
+    max-width: 2ch; 
+    padding: 0.25em 0.5em;
+    font-size: 1em;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
+
+  #winInput {
+    background-color: #4CAF50;
+  }
+
+  #lossInput {
+    background-color: #F44336;
+  }
+
+  #drawInput {
+    background-color: #2196F3; 
+  }
+
+/* Phone and Tablet*/
+  @media only screen and (min-width: 100px) {
+  
+  body {
+    height: 100%;
+    width: 100%;
+  }
+
+  }
+
+  /* Laptop */
+  @media only screen and (min-width: 1024px) {
+  
+  body {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, auto);
+  }
+  
+  header {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+  }
+
+  #imageSection {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+  }
+
+  #careerSection {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+  }
+
+  #firstCareer {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+
+  #secondCareer {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+  }
+
+  #thirdCareer {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+  }
+
+  #fourthCareer {
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+  }
+
+  #videoSection {
+    grid-column: 1 / 3;
+    grid-row: 6 / 7;
+  }
+
+  #boxingHistory {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+  }
+
+  #early1900s {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  #mid1900s {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+
+  #late1900s {
+    grid-column: 1 / 2;
+    grid-row: 4 / 6;
+  }
+
+  #early2000s {
+    grid-column: 2 / 3;
+    grid-row: 4 / 6;
+  }
+
+  #boxingRecords {
+    grid-column: 1 / 3;
+    grid-row: 6 / 7;
+  }
+
+  }
+  
+  @media only screen and (min-width: 1200px) {
+     
+  body {
+    height: 1000px;
+    width: 1200px;
+  }
+  
+  }
