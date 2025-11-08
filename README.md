@@ -56,7 +56,8 @@ Each boxer page includes:
 
 ```
 /project-root
- ├── index.html                # Home page
+ ├── index.html                # Redirects user to Home page
+ ├── home.html                 # Home page
  ├── ali.html                  # Muhammad Ali page
  ├── tyson.html                # Mike Tyson page
  ├── mayweather.html           # Floyd Mayweather page
