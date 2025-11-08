@@ -1,4 +1,4 @@
-# Boxing Showcasing Website
+# Boxing Website
 
 A multi-page boxing information website built with **HTML**, **CSS**, and **JavaScript**.  
 The site features four pages: a **Home page**, a **Muhammad Ali page**, a **Mike Tyson page**, and a **Floyd Mayweather page**.  
